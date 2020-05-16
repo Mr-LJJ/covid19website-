@@ -1,1 +1,1 @@
-# COVID19WebsiteProject
+# COVID19网页 比赛使用 私人项目 禁止商用
