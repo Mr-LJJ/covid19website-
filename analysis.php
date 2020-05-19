@@ -1,6 +1,8 @@
 ﻿<?php
+error_reporting(E_ALL^E_WARNING);
+error_reporting(E_ALL^E_NOTICE);
 include("./api.php");//引入数据
-if($Virus = json_decode($Virus_api, true)){}else{echo "<script src='../assets/sweetalert2/dist/sweetalert2.min.js'><link rel='stylesheet' href='../assets/sweetalert2/dist/sweetalert2.min.css'></script><meta http-equiv='refresh' content='1'><script>Swal.fire({icon: 'error',title: 'Oops...API Boom',text: '悠着点!别刷那么快，1秒后自动刷新!',showConfirmButton: false})</script>";}
+if($Virus = json_decode($Virus_api, true)){$apistatus='1';}else{$apistatus='-1';echo "<script src='../assets/sweetalert2/dist/sweetalert2.min.js'><link rel='stylesheet' href='../assets/sweetalert2/dist/sweetalert2.min.css'></script><meta http-equiv='refresh' content='0.1' url='index.php'><script>;Swal.fire({icon: 'error',title: 'Oops...API Boom',text: '悠着点!别刷那么快，1秒后自动刷新!',showConfirmButton: false})</script>";}
 header('Content-type:text/html;charset=utf-8');
 $totalCured=$Virus['country']['totalCured'];//全国累计治愈
 $totalDeath=$Virus['country']['totalDeath'];//全国累计死亡
@@ -16,4 +18,5 @@ $P_totalCured[] = $Virus['provinceArray'][$i]['totalCured'];//省份累计治愈
 $P_totalDeath[] = $Virus['provinceArray'][$i]['totalDeath'];//省份累计死亡
 $P_totalConfirmed[] = $Virus['provinceArray'][$i]['totalConfirmed'];//省份累计确诊
 }
+
 ?>
