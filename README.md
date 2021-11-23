@@ -15,14 +15,14 @@
 COVID19 Realtime Data网页 学校比赛使用 私人项目    
 
 UPDATE
-2021.11.23 项目正常运行,api已续期
+2021.11.23 项目正常运行 api已续期
 # 引用其他项目   
 Charts.js https://github.com/chartjs/Chart.js    
 Sweetalert2 https://github.com/sweetalert2/sweetalert2    
 疫情地图 https://github.com/lzxue/yiqingditu    
-# 安装Install
+# 安装Install  
 建议使用XAMPP   
-下载整1个zip解压到你的网页服务端文件夹即可(请将所有文件放在网页根目录)   
+下载整个zip解压到你的网页服务端文件夹即可(请将所有文件放在网页根目录)   
 文件包含网页代码及素材文件     
 数据库需要创建一个名为ncov_web的库再导入一下面的数据表   
 ncov_web.sql为数据库文件自行导入     
