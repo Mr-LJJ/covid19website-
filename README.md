@@ -13,6 +13,9 @@
 2021.02.24 自2020.05.20完成那么多天以来没有任何BUG 所有东西运行正常   
 所有代码前端后端CSS均为自己手打,本人缺少平面设计概念页面也就这样了,有少数功能为引用Github项目(不引用我也写不出来) 
 COVID19 Realtime Data网页 学校比赛使用 私人项目    
+
+UPDATE
+2021.11.23 项目正常运行,api已续期
 # 引用其他项目   
 Charts.js https://github.com/chartjs/Chart.js    
 Sweetalert2 https://github.com/sweetalert2/sweetalert2    
@@ -24,8 +27,7 @@ Sweetalert2 https://github.com/sweetalert2/sweetalert2
 数据库需要创建一个名为ncov_web的库再导入一下面的数据表   
 ncov_web.sql为数据库文件自行导入     
 # 使用Usage
-打开你的web服务端(¿¿¿   
-打开浏览器输入你的IP,域名(¿¿¿   
+打开浏览器输入你的IP,域名
 # 主要项目负责人Maintainers
 @Mr-LJJ   
 # 开源协议License
